@@ -15,7 +15,7 @@
     </head>
     <body>
 
-
+<h1>Przykłądowe oferty:</h1>
 
         <nav class="navbar navbar-inverse">
             <div class="container-fluid">
