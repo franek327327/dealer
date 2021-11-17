@@ -15,7 +15,6 @@
     </head>
     <body>
 
-<h1>Przykładowe oferty:</h1>
 
         <nav class="navbar navbar-inverse">
             <div class="container-fluid">
@@ -34,6 +33,7 @@
             </div>
           </nav>
 		  
+<h1>Przykładowe oferty:</h1>
 		  
 		  <div class="my-flipster">
 		  
