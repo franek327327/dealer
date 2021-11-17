@@ -4,3 +4,11 @@
 body{
     background-color: DDCECD;
 }
+.my-flipster{
+margin-top: 250px;
+}
+li img{
+border: 3px;
+border-color: bisque;
+border-radius: 4px;
+}
