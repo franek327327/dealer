@@ -2,7 +2,7 @@
     font-family: 'Roboto', sans-serif;
 }
 body{
-    background-color: #EEE5E5!important;
+    background-color: #f3ecdb!important;
 }
 .my-flipster{
 margin-top: 100px;
@@ -19,7 +19,6 @@ form{
     text-align: -webkit-center;
 
 }
-
 h1{
     text-align: center;
     margin-top: 70px!important;
