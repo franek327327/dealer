@@ -12,6 +12,13 @@ border: 3px;
 border-color: bisque;
 border-radius: 8px;
 }
+input{
+    display:block;
+}
+form{
+    text-align: -webkit-center;
+
+}
 
 h1{
     text-align: center;
