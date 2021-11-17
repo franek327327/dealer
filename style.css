@@ -2,10 +2,7 @@
     font-family: 'Roboto', sans-serif;
 }
 body{
-<<<<<<< HEAD
     background-color: #DDCECD;
-=======
-    background-color: DDCECD;
 }
 .my-flipster{
 margin-top: 200px;
@@ -21,6 +18,9 @@ h1{
     text-align: center;
 =======
 border-radius: 4px;
+<<<<<<< HEAD
 >>>>>>> cadf32bf389b7f532b27a36e7fa56bd78f792bd9
 >>>>>>> 938075620b324a09f1f227a14e78eec2d39c6939
+=======
+>>>>>>> 83b137c2e22db718eec74be6d8eb2883de3723f4
 }
