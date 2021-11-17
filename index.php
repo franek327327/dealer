@@ -68,7 +68,10 @@
 		  
 		  </div>
 		  
-		  
+		  <footer>
+  <p>Author: Hege Refsnes</p>
+  <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+</footer>
 		  
 		  <script src="jquery.min.js"></script>
 		<script src="jquery.flipster.min.js"></script>
