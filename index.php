@@ -27,8 +27,15 @@
                 <li><a href="#">Page 2</a></li>
               </ul>
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><span class="glyphicon glyphicon-user"></span>Rejestracja</a></li>
-                <li><a href="log.php"><span class="glyphicon glyphicon-log-in"></span>Logowanie</a></li>
+                <?php
+                  session_start();
+                  if(isset($_SESSION['zalogowano']) && $_SESSION['zalogowano'] == true){
+                    echo '<li><a href="logout.php"><span class="glyphicon glyphicon-log-out"></span>Wyloguj się</a></li>';
+                  }else{
+                    echo '<li><a href="#"><span class="glyphicon glyphicon-user"></span>Rejestracja</a></li>
+                    <li><a href="log.php"><span class="glyphicon glyphicon-log-in"></span>Logowanie</a></li>';
+                  }
+                ?>
               </ul>
             </div>
           </nav>
