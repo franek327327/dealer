@@ -38,9 +38,9 @@ if(isset($_SESSION['zalogowano']) && $_SESSION['zalogowano'] == true){
   <h1>Logowanie</h1>
   <form action="log_script.php" method="post">
   <label for="email">Email:</label>
-  <input type="text" name="email">
+  <input type="email" name="email">
   <label for="password">Hasło:</label>
-  <input type="text" name="password">
+  <input type="password" name="password">
   <br>
   <input type="submit" value="Zaloguj się!">
   </form>
