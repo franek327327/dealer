@@ -1,4 +1,10 @@
-
+<?php
+session_start();
+if(isset($_SESSION['zalogowano']) && $_SESSION['zalogowano'] == true){
+  echo "zalogowany!";
+  unset($_SESSION['zalogowano']);
+}
+?>
 
 <!DOCTYPE html>
 <html>
