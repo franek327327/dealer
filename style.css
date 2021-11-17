@@ -2,13 +2,18 @@
     font-family: 'Roboto', sans-serif;
 }
 body{
-    background-color: #DDCECD;
+    background-color: #DDCECD!important;
 }
 .my-flipster{
-margin-top: 250px;
+margin-top: 100px;
 }
 li img{
 border: 3px;
 border-color: bisque;
-border-radius: 4px;
+border-radius: 8px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 70px!important;
 }
