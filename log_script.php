@@ -10,9 +10,16 @@ session_start();
             while($wiersz = mysqli_fetch_assoc($wynik)) {
                
               }
-             $_SESSION['zalogowano'] = true;
-        }
-        mysqli_close($polaczenie);
-    }
-    header("location:index.php");
+             $_SESSION['account'] = "Udało się zalogować!";
+             $_SESSION['log'] = true;
+             mysqli_close($polaczenie);
+             header("location:index.php");
+             
+        }else
+        {
+            $_SESSION['account'] = "Podano zły email lub hasło!";
+            mysqli_close($polaczenie);
+            header("location:log.php");
+        }     
+    } 
 ?>

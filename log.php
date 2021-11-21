@@ -1,8 +1,7 @@
 <?php
 session_start();
-if(isset($_SESSION['zalogowano']) && $_SESSION['zalogowano'] == true){
-  echo "zalogowany!";
-  unset($_SESSION['zalogowano']);
+if(isset($_SESSION['log']) && $_SESSION['log'] == true){
+  $_SESSION['reg'] = "Zalogowano!";
 }
 ?>
 
@@ -30,7 +29,7 @@ if(isset($_SESSION['zalogowano']) && $_SESSION['zalogowano'] == true){
         <li><a href="#">Page 2</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span>Rejestracja</a></li>
+        <li><a href="reg.php"><span class="glyphicon glyphicon-user"></span>Rejestracja</a></li>
         <li class="active"><a href="log.php"><span class="glyphicon glyphicon-log-in"></span>Logowanie</a></li>
       </ul>
     </div>
@@ -44,5 +43,12 @@ if(isset($_SESSION['zalogowano']) && $_SESSION['zalogowano'] == true){
   <br>
   <input type="submit" value="Zaloguj się!">
   </form>
+  <?php
+  if(isset($_SESSION['account']))
+  {
+    echo "<div class='alert alert-danger' role='alert'>".$_SESSION['account']."</div>";
+    unset($_SESSION['account']);
+  }
+  ?>
 </body>
 </html>

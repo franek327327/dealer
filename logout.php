@@ -1,5 +1,5 @@
 <?php
 session_start();
-unset($_SESSION['zalogowano']);
+unset($_SESSION['log']);
 header("location:index.php");
 ?>

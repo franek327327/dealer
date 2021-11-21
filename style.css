@@ -28,3 +28,11 @@ h1 {
     text-align: center;
     margin-top: 70px !important;
 }
+
+.alert-danger{
+    margin:auto;
+    text-align: center;
+}
+.alert{
+    margin: 0!important;
+}
