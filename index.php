@@ -34,8 +34,8 @@
                 <a class="navbar-brand" href="#">Komis samochodowy</a>
               </div>
               <ul class="nav navbar-nav">
-                <li class="active"><a href="index.php">Strona główna</a></li>
-                <li><a href="#">Page 1</a></li>
+                <li class="active"><a href="#">Strona główna</a></li>
+                <li><a href="oferta.php">Oferta</a></li>
                 <li><a href="#">Page 2</a></li>
               </ul>
               <ul class="nav navbar-nav navbar-right">
@@ -83,7 +83,7 @@
 		  </div>
 		  
 		  <footer>
-  <p>Author: </p>
+  <p>Author: Łukasz i Filip</p>
   <p><a href="mailto:hege@example.com">hege@example.com</a></p>
 </footer>
 		  

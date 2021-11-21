@@ -35,4 +35,8 @@ h1 {
 }
 .alert{
     margin: 0!important;
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
 }
