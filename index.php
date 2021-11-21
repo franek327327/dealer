@@ -69,7 +69,7 @@
 		  </div>
 		  
 		  <footer>
-  <p>Author: Hege Refsnes</p>
+  <p>Author: </p>
   <p><a href="mailto:hege@example.com">hege@example.com</a></p>
 </footer>
 		  
