@@ -54,11 +54,11 @@
                   while($wiersz = mysqli_fetch_assoc($wynik)) 
                   {
                       echo "<li>
-						<img src='zdj/".$wiersz['zdjecie']."' width='700'>
-						<h2>".$wiersz['model']."</h2>
-						<p>".$wiersz['rocznik']."</p>
-					  
-					  </li>";
+                      <img src='zdj/".$wiersz['zdjecie']."' width='700'>
+                      <h2>".$wiersz['model']."</h2>
+                      <p>".$wiersz['rocznik']."</p>
+                      
+                      </li>";
                   }
                   echo "</ul>";
                 }
