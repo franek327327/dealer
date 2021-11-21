@@ -44,5 +44,6 @@ if(isset($_SESSION['zalogowano']) && $_SESSION['zalogowano'] == true){
   <br>
   <input type="submit" value="Zaloguj się!">
   </form>
+  
 </body>
 </html>

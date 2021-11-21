@@ -28,3 +28,9 @@ h1 {
     text-align: center;
     margin-top: 70px !important;
 }
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+}

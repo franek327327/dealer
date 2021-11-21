@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Dealer samochodowy</title>
+        <title>Oferta</title>
         <script src="app.js"></script>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -22,8 +22,8 @@
                 <a class="navbar-brand" href="#">Komis samochodowy</a>
               </div>
               <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Strona główna</a></li>
-                <li><a href="oferta.php">Oferta</a></li>
+                <li><a href="index.php">Strona główna</a></li>
+                <li class="active"><a href="oferta.php">Oferta</a></li>
                 <li><a href="#">Page 2</a></li>
               </ul>
               <ul class="nav navbar-nav navbar-right">
@@ -39,47 +39,32 @@
               </ul>
             </div>
           </nav>
-		  
-<h1>Przykładowe oferty:</h1>
-		  
-		  <div class="my-flipster">
-		  
-          <?php
-                $polaczenie = mysqli_connect("localhost", "root", "", "dealer");
-                $zapytanie = "select model, rocznik, zdjecie from samochody";
-                $wynik = mysqli_query($polaczenie, $zapytanie);
-                if(mysqli_num_rows($wynik) > 0)
-                {
-                  echo "<ul>";
-                  while($wiersz = mysqli_fetch_assoc($wynik)) 
-                  {
-                      echo "<li>
-                      <img src='zdj/".$wiersz['zdjecie']."' width='700'>
-                      <h2>".$wiersz['model']."</h2>
-                      <p>".$wiersz['rocznik']."</p>
-                      
-                      </li>";
-                  }
-                  echo "</ul>";
-                }
-                mysqli_close($polaczenie);
-          ?>
-		  
-		  
-		  </div>
-		  
+
+          <h1>Nasze samochody:</h1>
+
+          <img src="zdj/1.jpg" width="700px">
+          <img src="zdj/2.jpg" width="700px">
+          <img src="zdj/3.jpg" width="700px">
+          <img src="zdj/4.jpg" width="700px">
+          <img src="zdj/5.jpg" width="700px">
+          <img src="zdj/6.jpg" width="700px">
+          <img src="zdj/7.jpg" width="700px">
+          <img src="zdj/8.jpg" width="700px">
+          <img src="zdj/9.jpg" width="700px">
+          <img src="zdj/10.jpg" width="700px">
+          <img src="zdj/11.jpg" width="700px">
+          <img src="zdj/12.jpg" width="700px">
+          <img src="zdj/13.jpg" width="700px">
+          <img src="zdj/14.jpg" width="700px">
+          <img src="zdj/15.jpg" width="700px">
+          <img src="zdj/16.jpg" width="700px">
+          <img src="zdj/17.jpg" width="700px">
+          
+  
 		  <footer>
   <p>Author: Łukasz i Filip</p>
   <p><a href="mailto:hege@example.com">hege@example.com</a></p>
 </footer>
-		  
-		  <script src="jquery.min.js"></script>
-		<script src="jquery.flipster.min.js"></script>
-		<script>
-			$('.my-flipster').flipster(
-			
-			);
-		</script>
-		  
-          </body>
-          </html>
+
+                </body>
+                </html>
